@@ -27,8 +27,12 @@
     justify-content: center;
 
 }
+
 .empresa #inf-empresa{
     width: 500px;
+}
+.empresa #inf-empresa b{
+    color: black;
 }
 </style>
 <body>
