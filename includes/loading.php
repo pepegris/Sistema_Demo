@@ -1,9 +1,7 @@
-<!-- <link rel="stylesheet" href="./css/menu/bootstrap.min.css"> -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 <style>
     body{
     height: 100vh;
-    background-image: url('thumb-1920-12453.jpg');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
