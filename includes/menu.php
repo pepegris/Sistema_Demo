@@ -19,6 +19,13 @@
      display: none;
  }
 }
+@media (min-width: 905px){
+ 
+ #navegador {
+      display: none;
+  }
+ }
+ 
 
 </style>
 
