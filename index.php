@@ -70,7 +70,7 @@ session_destroy();
            <div class="derecha">
 
            <h4>Credenciales</h4>
-                <p>Usuario: sistema</p>
+                <p>Usuario: administrador</p>
                      <p>Clave: 753159*</p>
               <!--   <div id="invitado">
                      <h4>Credenciales</h4> 
