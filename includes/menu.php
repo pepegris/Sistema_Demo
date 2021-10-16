@@ -144,7 +144,7 @@
       </li> -->
 
       <li id="nav-item" class="nav-item">
-        <a href="../Articulos/articulos.php" id="nav-link" class="nav-link">
+        <a href="../articulos/articulo.php" id="nav-link" class="nav-link">
         <svg
             aria-hidden="true"
             focusable="false"
