@@ -33,10 +33,13 @@
 .empresa #inf-empresa{
     width: 500px;
  
-    z-index: -5;
+    z-index: -1;
     
 }
 .empresa #inf-empresa b{
+    color: black;
+}
+.empresa #inf-empresa p{
     color: black;
 }
 @media (max-width: 900px){
