@@ -32,6 +32,26 @@ session_destroy();
     background-size: cover;
   }
 
+  #usuario{
+       position: fixed;
+   bottom: 90%;
+   right: 5%;
+   font-size:30px;
+   }
+
+       
+@media (max-width: 900px){
+ 
+ #usuario{
+   bottom: 90%;
+   right: 2%;
+   font-size:9px;
+
+            }
+
+    }
+
+
   </style>
 <body>
     <form class="slideUp" method="POST" action="auntenticando.php">
@@ -66,31 +86,22 @@ session_destroy();
                 
             </div>
 
-            
-           <div class="derecha">
-
-           <h4>Credenciales</h4>
-                <p>Usuario: administrador</p>
-                     <p>Clave: 753159*</p>
-              <!--   <div id="invitado">
-                     <h4>Credenciales</h4> 
-                     <p>Usuario: sistema</p>
-                     <p>Clave: 753159*</p>
-                  
-                    
-                   </div> -->
-                </div>
-            </div> 
- 
-        
-            
-            </div>
+       
     </form>
 
 
-        
 
-    </div>
+
+
+<div id="usuario" >
+  <p class="btn btn-dark">credenciales <br>
+  administrador <br>
+  753159*</p>
+  
+</div>
+
+
+ 
     
     
 

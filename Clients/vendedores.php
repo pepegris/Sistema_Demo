@@ -26,6 +26,7 @@ form{
   background-color:  rgba(29, 27, 27, 0.205);
   box-shadow: 2px 2px 5px #999;
   width: 42%;
+  margin-top: 35px;
 }
 form .fieldset{
   margin-left: 35px;
@@ -42,6 +43,19 @@ form .fieldset .form-group input{
  box-shadow: 2px 2px 5px #999;
  width: 80%;
 }
+#usuario{
+  display: none;
+}
+#buscar{
+  display: none;
+}
+}
+
+@media (min-width: 900px){
+  #buscar2{
+  display: none;
+}
+
 }
     
 </style>
@@ -95,7 +109,10 @@ include 'includes/ico_buscar-vendedor.php';
 </div>
 
 
+<center>
+<a id="buscar2" href="vendedores_registrados.php" class="btn btn-warning"  >Buscar Vendedores</a>
 
+</center>
 
 
 </body>

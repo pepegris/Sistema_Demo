@@ -38,7 +38,7 @@
             <i class="fas fa-bars"></i>
         </label>
         <a href="#" class="enlace">
-            Sistema
+            Sistema Demo
         </a>
         <ul>
             <li><a class="active" href="../router/inicio.php">Inicio</a></li>

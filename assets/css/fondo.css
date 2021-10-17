@@ -23,6 +23,9 @@ opacity: .95;
   #menu {
       display: none;
   }
+  #usuario{
+    display: none;
+}
 }
 #navegador a {text-decoration: none;}
 

@@ -39,11 +39,24 @@ form .fieldset .form-group input{
 @media (max-width: 900px){
  
   form{
+    margin-top: 35px;
   border-radius: 10px;  
   background-color:  rgba(29, 27, 27, 0.205);
   box-shadow: 2px 2px 5px #999;
   width: 80%;
 }
+#buscar{
+  display: none;
+}  #usuario{
+    display: none;
+}
+
+}
+@media (min-width: 900px){
+  #buscar2{
+  display: none;
+}
+
 }
     
 </style>
@@ -100,7 +113,8 @@ include 'includes/ico_buscar.php';
 
 </div>
 
-
+<center><a  href="clientes_registrados.php"  id="buscar2" class="btn btn-warning"  >Buscar Clientes</a>  
+</center>
 
 
 

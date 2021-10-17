@@ -25,15 +25,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -5;
+    
 
 }
 
 .empresa #inf-empresa{
     width: 500px;
+ 
+    z-index: -5;
+    
 }
 .empresa #inf-empresa b{
     color: black;
 }
+@media (max-width: 900px){
+ 
+    .empresa #inf-empresa{
+    width: 300px;
+    margin-top: 35px;
+}
+#usuario{
+    display: none;
+}
+
+    }
+
+
 </style>
 <body>
  
@@ -89,7 +107,6 @@ require_once '../includes/menu.php';
         
      
 
-        
     
     
     </div>

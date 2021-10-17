@@ -42,6 +42,9 @@
 .container .row{
  margin-top: 50px;
 }
+#usuario{
+  display: none;
+}
 
 
 }
